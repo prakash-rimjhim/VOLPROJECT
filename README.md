@@ -5,3 +5,13 @@ Then, i have run pip install djangorestframework , for rest framework setup.
 
 Then i have started my app (py manage.py startapp api).
 Then in installed apps in settings file i have mentioned , my app name and then rest_framework.
+
+I have mad model Sales , department  --
+I have write the corresponding view for total_items_sold  and write the url for that purpose in project url - http://127.0.0.1:8000/api/total_items
+
+
+I have then write view for nth_most_total_item_view and write corresponding url in project url -http://127.0.0.1:8000/api/nth_most_total_item/.
+
+I have then write view for nth_most_total_item_view and write corresponding url in project url -[api/percentage_of_department_wise_sold_items/](http://127.0.0.1:8000/api/percentage_of_department_wise_sold_items/)
+
+I have then write view monthly_sales and write corresponding url in project url - http://127.0.0.1:8000/api/monthly_sales/
